@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 14%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+input[type=word] { 
+    width:50%; 
+    padding: 12px 20px; 
+    margin: 15px 0; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    text-align: center; 
+  } 
+  .container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+  width:100%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%; 
+  left: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-40%);
+}
+</style>
+<head> 
+        <meta charset = "utf-8" /> 
+          
+        <title> 
+             Detection of Phising website
+        </title> 
+          
+        <!-- add icon link -->
+        <link rel = "icon" href = "logo.jfif" 
+        type = "image/x-icon"> 
+          
+    </head> 
+
+<body>
+<div class="navbar">
+  <a class="active" href="C:/Users/Ramya/IWT/userlist.html#">View Users</a> 
+  <a href="C:/Users/Ramya/IWT/admin.html#">Add to Blacklist</a> 
+  <a href="C:/Users/Ramya/IWT/addwords1.html#">Add Words</a> 
+  <a href="C:/Users/Ramya/IWT/viewurls.html#">View List</a> 
+  <a href="C:/Users/Ramya/IWT/viewfeedback.html#">View Feedback</a> 
+  <a href="C:/Users/Ramya/IWT/changepassword.html#">Change Password</a> 
+  <a href="C:/Users/Ramya/IWT/logout.html#">Logout</a>
+</div>
+<h1><center>ADD WORDS</center></h1></body>
+<div class="container">
+<div class="vertical-center"> 
+      <label for="word"><b><center><h3>Enter words</h3></center></b></label> 
+      <input type="word" id="words" placeholder="Enter word" name="word" required>
+      <input type="submit" value="Add word"></button>
+    </div>
+  </div>
+ 
+
+
+</body>
+</html> 
